@@ -1,7 +1,7 @@
 {
   "name": "vitepress-basic-docs",
   "version": "1.0.0",
-  "description": "vitepress基础文档",
+  "description": "vitepress项目基础文档",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/github.com/flingyp#readme",
   "devDependencies": {
+    "typescript": "^4.6.4",
     "vitepress": "^0.22.4"
   }
 }
