@@ -8,6 +8,26 @@ const VitePressConfig = defineConfig({
   base: "/vitepress-basic-docs/",
   title: "Basic Docs",
   description: "基于 Vitepress 搭建的项目文档框架",
+  head: [
+    ["meta", { name: "author", content: "FlingYP" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "VitePress, Vue3, VuePress, Docs, Static Site",
+      },
+    ],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/docs-logo.png" }],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content:
+          "width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
+      },
+    ],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+  ],
   themeConfig: {
     logo: "/docs-logo.png", // 定义顶部最左侧Logo
     docsRepo: "flingyp/vitepress-basic-docs", // 定义顶部最右侧GitHub仓库网址
