@@ -8,6 +8,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": [".vitepress/*", "docs/*"],
+  "include": [".vitepress/**/*", "docs/**/*", "./*.ts", "./*.d.ts"],
   "exclude": ["node_modules"]
 }
