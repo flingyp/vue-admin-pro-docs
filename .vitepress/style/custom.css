@@ -3,3 +3,7 @@
   --c-brand: #5dade2;
   --c-brand-light: #3498db;
 }
+
+.figure > img {
+  height: 100px;
+}
