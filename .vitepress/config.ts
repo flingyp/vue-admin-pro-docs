@@ -60,7 +60,11 @@ const VitePressConfig = defineConfig({
           children: [
             {
               text: "介绍",
-              link: "/guide/index",
+              link: "/guide/",
+            },
+            {
+              text: "快速上手",
+              link: "/guide/started",
             },
           ],
         },
@@ -68,7 +72,7 @@ const VitePressConfig = defineConfig({
     },
   },
   markdown: {
-    toc: { includeLevel: [1, 2] },
+    toc: { includeLevel: [1, 2, 3] },
   },
 });
 
