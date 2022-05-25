@@ -7,3 +7,7 @@
 .figure > img {
   height: 100px;
 }
+
+.page > div.container {
+  max-width: 70% !important;
+}

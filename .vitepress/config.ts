@@ -39,6 +39,10 @@ const VitePressConfig = defineConfig({
         link: "/guide/",
       },
       {
+        text: "系统权限",
+        link: "/routePermissionMenu/",
+      },
+      {
         text: "相关链接",
         items: [
           {
@@ -48,6 +52,10 @@ const VitePressConfig = defineConfig({
           {
             text: "预览地址",
             link: "http://yyblog.top/vue-admin-pro",
+          },
+          {
+            text: "文档源码",
+            link: "https://github.com/flingyp/vue-admin-pro-docs",
           },
         ],
       },
@@ -65,6 +73,29 @@ const VitePressConfig = defineConfig({
             {
               text: "快速上手",
               link: "/guide/started",
+            },
+          ],
+        },
+      ],
+      "/routePermissionMenu/": [
+        {
+          text: "系统权限",
+          children: [
+            {
+              text: "介绍",
+              link: "/routePermissionMenu/",
+            },
+            {
+              text: "路由篇",
+              link: "/routePermissionMenu/router",
+            },
+            {
+              text: "权限篇",
+              link: "/routePermissionMenu/permission",
+            },
+            {
+              text: "菜单篇",
+              link: "/routePermissionMenu/menu",
             },
           ],
         },
