@@ -86,16 +86,20 @@ const VitePressConfig = defineConfig({
               link: "/routePermissionMenu/",
             },
             {
-              text: "路由篇",
+              text: "路由",
               link: "/routePermissionMenu/router",
             },
             {
-              text: "权限篇",
+              text: "权限",
               link: "/routePermissionMenu/permission",
             },
             {
-              text: "菜单篇",
+              text: "菜单",
               link: "/routePermissionMenu/menu",
+            },
+            {
+              text: "路由守卫",
+              link: "/routePermissionMenu/globalBeforeEach",
             },
           ],
         },
