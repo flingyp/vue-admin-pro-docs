@@ -75,3 +75,7 @@ export const asyncRouters: SysTyping.RouteStruct[] = [
 如果系统由后端控制路由，那么系统就会忽略 **asyncRouter** 异步路由表定义的路由。
 
 所有异步路由信息应和后端对接，可以参考 `mock/system/User.ts` 中的用户路由的数据结构和后端对接，再做对应的逻辑改动。
+
+## 按钮权限控制
+
+按钮的权限控制系统中主要是通过使用了一个自定义指令 `v-button-permission` 来控制按钮的显示和异常

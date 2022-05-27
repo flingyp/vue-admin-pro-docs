@@ -43,6 +43,10 @@ const VitePressConfig = defineConfig({
         link: "/routePermissionMenu/",
       },
       {
+        text: "代码规范",
+        link: "/codeStandard/",
+      },
+      {
         text: "相关链接",
         items: [
           {
